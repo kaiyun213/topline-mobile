@@ -6,7 +6,10 @@ export default new Router({
   routes: [
     {
       name:'login',path:'/login',component:()=>import('@/views/login/index.vue')
-    }
+    },
+    {
+      name:'home',path:'/home',component:()=>import('@/views/home/index.vue')
+    },
     
   ]
 })
